@@ -39,4 +39,3 @@ for sj in strategy_instance.class1:
     x_train.append(xz_line)
 # print(x_train[400].count(1))
 # print(len(set(strategy_instance.class1[400-360])))
-# print(y_train[510:520])
