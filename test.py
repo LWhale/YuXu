@@ -22,8 +22,8 @@ for si in strategy_instance.class0:
     y_train.append(0)
     for wi in feature:
         if wi in si:
-            x_line.append(1)
-            # x_line.append(si.count(wi))
+            #x_line.append(1)
+            x_line.append(si.count(wi))
         else:
             x_line.append(0)
     x_train.append(x_line)
@@ -36,8 +36,8 @@ for sj in strategy_instance.class1:
     y_train.append(1)
     for wj in feature:
         if wj in sj:
-            xz_line.append(1)
-            # xz_line.append(sj.count(wj))
+            #xz_line.append(1)
+            xz_line.append(sj.count(wj))
         else:
             xz_line.append(0)
     x_train.append(xz_line)
@@ -54,7 +54,8 @@ for sk in test_list:
     test_real_y.append([1])
     for wk in feature:
         if wk in sk:
-            xk_line.append(1)
+            #xk_line.append(1)
+            xk_line.append(sk.count(wk))
         else:
             xk_line.append(0)
     test_x.append(xk_line)
