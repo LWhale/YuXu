@@ -8,7 +8,7 @@ strategy_instance=helper.strategy()
 
 all_word = set()
 for s0 in strategy_instance.class0:
-    all_word.update(set(s0))
+    all_word.update(set(s0))asdasd
 for s1 in strategy_instance.class1:
     all_word.update(set(s1))
 # print(len(all_word)) 5718
