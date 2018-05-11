@@ -1,7 +1,7 @@
 import helper
 from sklearn import svm
 import numpy as np
-
+11111111111
 strategy_instance=helper.strategy()
 # print(len(strategy_instance.class0)) 360
 # print(len(strategy_instance.class1)) 180
